@@ -1,0 +1,25 @@
+The project resource is the base-level organizing entity. Organizations and folders may contain multiple projects.
+
+All projects consist of the following:
+
+Two identifiers:
+Project ID, which is a unique identifier for the project.
+Project number, which is automatically assigned when you create the project. It is read-only.
+One mutable display name.
+The lifecycle state of the project; for example, ACTIVE or DELETE_REQUESTED.
+A collection of labels that can be used for filtering projects.
+The time when the project was created.
+
+The following code snippet shows the structure of a project:
+
+{
+  "name": "myproject",
+  "projectId": "my-project-123",
+  "labels":
+   {
+     "my-label": "prod"
+   },
+   "projectNumber": "464036093014",
+   "lifecycleState": "ACTIVE",
+   "createTime": "2016-01-07T21:59:43.314Z"
+}
