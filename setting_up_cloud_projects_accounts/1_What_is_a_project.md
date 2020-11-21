@@ -17,28 +17,28 @@ The project resource is the base-level organizing entity. Organizations and fold
 - The time when the project was created.
 
 The following code snippet shows the structure of a project:
-`
-{
-  "name": "myproject",
+
+`{`
+`  "name": "myproject",`
   
-  "projectId": "my-project-123",
+`  "projectId": "my-project-123",`
   
-  "labels":
+`  "labels":`
   
-   {
+`   {`
    
-     "my-label": "prod"
+`     "my-label": "prod"`
      
-   },
+`   },`
    
-   "projectNumber": "464036093014",
+`   "projectNumber": "464036093014",`
    
-   "lifecycleState": "ACTIVE",
+`   "lifecycleState": "ACTIVE",`
    
-   "createTime": "2016-01-07T21:59:43.314Z"
+`   "createTime": "2016-01-07T21:59:43.314Z"`
    
-}
-`
+`}`
+
 
 **Project name**: A human-readable name for your project.
 
