@@ -21,15 +21,15 @@ When you're finished entering new project details, click Create.
 
 To create a new project, use the gcloud projects create command:
 
-**gcloud projects create PROJECT_ID**
+**`gcloud projects create PROJECT_ID`**
 
 Where PROJECT_ID is the ID for the project you want to create. A project ID must start with a lowercase letter, and can contain only ASCII letters, digits, and hyphens, and must be between 6 and 30 characters.
 
 To create a project with an organization or a folder as parent, use the --organization or --folder flags. As a resource can only have one parent, only one of these flags can be used:
 
-**gcloud projects create PROJECT_ID --organization=ORGANIZATION_ID**
+**`gcloud projects create PROJECT_ID --organization=ORGANIZATION_ID`**
 
-**gcloud projects create PROJECT_ID --folder=FOLDER_ID**
+**`gcloud projects create PROJECT_ID --folder=FOLDER_ID`**
 
 
 ## From Api
@@ -40,7 +40,7 @@ The below request only creates a project, and does not associate it automaticall
 
 
 
-POST https://cloudresourcemanager.googleapis.com/v1/projects/
+`POST https://cloudresourcemanager.googleapis.com/v1/projects/
 Authorization: *************
 Content-Type: application/json
 
@@ -50,4 +50,4 @@ Content-Type: application/json
     "labels": {
       "mylabel": "prod"
     }
-}
+}`
