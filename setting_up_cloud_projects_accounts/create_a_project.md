@@ -39,11 +39,12 @@ You can't use certain words in the project ID when you create a new project with
 The below request only creates a project, and does not associate it automatically with a billing account. Use the projects.updateBillingInfo method to set or update the billing account associated with a project.
 
 
-
+```text
 POST https://cloudresourcemanager.googleapis.com/v1/projects/
 Authorization: *************
 Content-Type: application/json
-
+```
+```json
 {
     "projectId": "our-project-123",
     "name": "my project",
@@ -51,3 +52,4 @@ Content-Type: application/json
       "mylabel": "prod"
     }
 }
+```
