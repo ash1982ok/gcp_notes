@@ -40,7 +40,7 @@ The below request only creates a project, and does not associate it automaticall
 
 
 
-`POST https://cloudresourcemanager.googleapis.com/v1/projects/
+POST https://cloudresourcemanager.googleapis.com/v1/projects/
 Authorization: *************
 Content-Type: application/json
 
@@ -50,4 +50,4 @@ Content-Type: application/json
     "labels": {
       "mylabel": "prod"
     }
-}`
+}
