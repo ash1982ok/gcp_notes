@@ -1,0 +1,12 @@
+# from console
+
+To enable an API for a project using the console:
+
+Go to the Cloud Console API Library.
+From the projects list, select the project you want to use.
+In the API Library, select the API you want to enable. If you need help finding the API, use the search field and/or the filters.
+On the API page, click ENABLE.
+
+# from gcloud SDK
+
+# from service API
