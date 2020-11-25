@@ -16,7 +16,7 @@ These libraries use each supported language’s natural conventions and styles, 
 reducing the amount of necessary boilerplate code, and optimizing the developer workflow.
 
 ***Product-specific command-line tools***
-A collection of command-line tools comes packaged with Cloud SDK, including gsutil, bq, and kubectl. 
+A collection of command-line tools comes packaged with Cloud SDK, including ***gsutil, bq, and kubectl.*** 
 The gsutil tool allows you to manage Cloud Storage buckets and objects using the command line. 
 Run queries and manipulate datasets, tables, and entities in BigQuery through the command line with bq. 
 With kubectl, you can deploy and manage Kubernetes container clusters using the command line.
