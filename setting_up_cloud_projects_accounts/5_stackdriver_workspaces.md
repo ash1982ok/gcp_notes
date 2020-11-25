@@ -35,3 +35,11 @@ If you want to create a multi-project Workspace, the best practice is to use the
 https://cloud.google.com/monitoring/workspaces/create#first-multi-project-workspace
 
 
+### AWS Connector projects
+In the preceding diagram, a Google Cloud project connects your monitored AWS account to the Workspace. The AWS connector project can be a Google Cloud project created specifically for this purpose or it can be an existing project. In either case, the AWS connect project must be in the same parent organization as the Workspace. The best practice is to create a Google Cloud project specifically to be the AWS connector project.
+
+In the figure, the connector project has a name beginning with AWS Link. To find the name and details about your AWS connector projects, in the Monitoring menu of the Cloud Console, select Settings.
+
+The billing account associated with the AWS connector project is used for Cloud Monitoring and Cloud Logging charges for the AWS account. For more information, see Billing.
+
+Don't use AWS connector projects for any other purpose, and don't delete them if your Workspace is connected to your AWS account.
