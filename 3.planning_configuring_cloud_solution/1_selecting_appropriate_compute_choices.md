@@ -8,6 +8,10 @@ e.g. RAM, CPU, Storage. It is also very hands on and low level.
 — Is a step up from Compute Engine, and allows you to use Kubernetes and 
 Containers to manage your application, allowing it to scale when need be.
 
+***Cloud Run - Cass/Kaas***
+
+- Develop and deploy highly scalable containerized applications on a fully managed serverless platform.
+
 ***App Engine - PaaS***
 — Is a step up from Kubernetes Engine and allows you to focus only on your code, 
 whilst Google handles all the underlying platform requirements.
