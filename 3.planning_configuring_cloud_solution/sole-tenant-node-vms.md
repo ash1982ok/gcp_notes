@@ -1,4 +1,4 @@
-#Sole-tenant nodes
+# Sole-tenant nodes
 
 - Sole-tenancy lets you have exclusive access to a sole-tenant node, which is a physical Compute Engine server 
 that is dedicated to hosting only your project's VMs. Use sole-tenant nodes to keep your VMs physically separated from VMs in other projects, 
