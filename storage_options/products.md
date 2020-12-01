@@ -10,9 +10,11 @@ Simple, reliable, and secure solutions for your media, analytics, and applicatio
 ## OBJECT OR BLOB STORAGE
 
 ***Cloud Storage***
+
 Reliable object storage with global edge-caching and instant data access.
 
 ***Good for***
+
 - Stream videos
 - Image and web asset libraries
 - Data lakes
@@ -21,18 +23,22 @@ Reliable object storage with global edge-caching and instant data access.
 ## BLOCK STORAGE
 
 ***Persistent disk***
+
 High-performance block storage for virtual machines and containers.
 
 ***Good for***
+
 - Disks for virtual machines
 - Sharing read-only data across multiple virtual machines
 - Rapid, durable backups of running virtual machines
 - Storage for databases
 
 ***Local SSD***
+
 Ephemeral locally-attached block storage for virtual machines and containers.
 
 ***Good for***
+
 - Flash-optimized databases
 - Hot caching layer for analytics
 - Application scratch disk
